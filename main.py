@@ -17,3 +17,7 @@ def hello(name: str = "world"):
 @app.post("/echo")
 def echo(payload: EchoIn):
     return {"text": payload.text, "length": len(payload.text)}
+
+@app.get("/sum")
+def sum_values(a:int,b:int):
+    return {"result:":a + b}
