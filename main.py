@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 
-app = FastAPI(title="Minha API Simples")
+app = FastAPI()
 
 class EchoIn(BaseModel):
     text: str
