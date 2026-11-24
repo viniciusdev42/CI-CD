@@ -9,31 +9,21 @@
 ``` shell
 sudo docker build -t my-api .
 ```
----
+-----
 
 ### 2.
 
 ``` shell
 sudo docker run -d --name my-api  -p 8000:8000 my-api
 ```
-----
-
-``` shell
-sudo docker ps
-```
-----
-
-``` shell
-IMAGE              ID             DISK USAGE   CONTENT SIZE   EXTRA                                                                                                          my-api:latest      289043c2a4a8  329MB            75.3MB           U                                                                                                           
-```
-----
+-----
 
 ### 3.
 
 ``` shell
 sudo docker logs -f my-api
 ```
-----
+-----
 
 ``` shell
 
