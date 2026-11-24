@@ -23,8 +23,8 @@ sudo docker ps
 ```
 ----
 
-```
-IMAGE              ID             DISK USAGE   CONTENT SIZE   EXTRA                                                                                                          my-api:latest      289043c2a4a8  329MB         75.3MB           U                                                                                                            python:3.14-slim   d712121441a4  180MB         45.7MB    
+``` shell
+IMAGE              ID             DISK USAGE   CONTENT SIZE   EXTRA                                                                                                          my-api:latest      289043c2a4a8  329MB            75.3MB           U                                                                                                           
 ```
 ----
 
